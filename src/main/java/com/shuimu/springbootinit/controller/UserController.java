@@ -37,7 +37,7 @@ import org.springframework.web.bind.annotation.*;
  *
  */
 @RestController
-@RequestMapping(value = "/user")
+@RequestMapping("/user")
 @Slf4j
 public class UserController {
 
